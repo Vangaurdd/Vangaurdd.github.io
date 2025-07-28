@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roblox Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-gamepad"></i>
+                <span>Roblox Dev</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="gradient-text">Roblox Developer</span>
+                    <br>Portfolio
+                </h1>
+                <p class="hero-subtitle">
+                    Creating immersive gaming experiences with clean, efficient Lua code
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="floating-card">
+                    <i class="fas fa-code"></i>
+                    <h3>2+ Years</h3>
+                    <p>Lua Experience</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-intro">
+                        Hi! I'm a Roblox scripter with <strong>2 years of hands-on Lua experience</strong> and <strong>4 years of general programming background</strong>. I specialize in creating clean, reliable, and efficient code for a wide range of game systems.
+                    </p>
+                    <p>
+                        My work focuses on both the technical side of scripting and the player experience — making sure systems not only work but feel polished and responsive.
+                    </p>
+                    <div class="experience-highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-sword"></i>
+                            <span>Battleground/Fighting Games</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-brain"></i>
+                            <span>Round-Based Survival Games</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-shopping-cart"></i>
+                            <span>Shop & Inventory Systems</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-cogs"></i>
+                            <span>Simulation Systems</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="profile-placeholder">
+                        <i class="fas fa-user"></i>
+                        <p>Your Photo Here</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-gamepad"></i>
+                            <p>Game Screenshot</p>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Tesla Coil Trap System</h3>
+                        <p class="project-description">
+                            Advanced client/server interaction with particle and sound syncing for immersive trap mechanics.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Lua</span>
+                            <span class="tag">RemoteEvents</span>
+                            <span class="tag">Particles</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-store"></i>
+                            <p>Shop UI Screenshot</p>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Dynamic Shop System</h3>
+                        <p class="project-description">
+                            Complete shop UI with product validation, server purchases, and user feedback systems.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">UI/UX</span>
+                            <span class="tag">DataStores</span>
+                            <span class="tag">TweenService</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-clock"></i>
+                            <p>Round System Screenshot</p>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Custom Round System</h3>
+                        <p class="project-description">
+                            Advanced round management with intermission timers, map rotation, and server logic.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Game Logic</span>
+                            <span class="tag">Timers</span>
+                            <span class="tag">Map Rotation</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-trophy"></i>
+                            <p>Leaderboard Screenshot</p>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Leaderboard System</h3>
+                        <p class="project-description">
+                            Comprehensive leaderboard logic tracking kills, wins, and playtime across sessions.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">DataStores</span>
+                            <span class="tag">Statistics</span>
+                            <span class="tag">UI</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-content">
+                <div class="skills-category">
+                    <h3>Programming Languages</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fas fa-code"></i>
+                            <span>Luau (Roblox Lua)</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-python"></i>
+                            <span>Python</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML/CSS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h3>Roblox APIs & Services</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fas fa-exchange-alt"></i>
+                            <span>RemoteEvents</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-cube"></i>
+                            <span>ModuleScripts</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>DataStores</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-magic"></i>
+                            <span>TweenService</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-hand-pointer"></i>
+                            <span>ContextActionService</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h3>Development Tools</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fas fa-gamepad"></i>
+                            <span>Roblox Studio</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-code"></i>
+                            <span>VS Code</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Goals Section -->
+    <section class="goals">
+        <div class="container">
+            <h2 class="section-title">Goals & Aspirations</h2>
+            <div class="goals-content">
+                <div class="goal-card">
+                    <i class="fas fa-coins"></i>
+                    <h3>Take on Commissions</h3>
+                    <p>Available for Robux or DevEx projects</p>
+                </div>
+                <div class="goal-card">
+                    <i class="fas fa-users"></i>
+                    <h3>Join Teams</h3>
+                    <p>Collaborate on exciting, polished games</p>
+                </div>
+                <div class="goal-card">
+                    <i class="fas fa-rocket"></i>
+                    <h3>Build Portfolio</h3>
+                    <p>Contribute to projects that grow over time</p>
+                </div>
+                <div class="goal-card">
+                    <i class="fas fa-trophy"></i>
+                    <h3>100K+ Visits</h3>
+                    <p>Be part of a game that hits major milestones</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Why Work With Me?</h3>
+                    <ul class="contact-benefits">
+                        <li><i class="fas fa-bolt"></i> Fast, responsive, and collaborative</li>
+                        <li><i class="fas fa-comments"></i> Clear communication throughout projects</li>
+                        <li><i class="fas fa-code"></i> Clean, scalable code that grows with your game</li>
+                        <li><i class="fas fa-check-circle"></i> Takes feedback seriously and revises until perfect</li>
+                        <li><i class="fas fa-graduation-cap"></i> Always learning and improving skills</li>
+                    </ul>
+                </div>
+                <div class="contact-form">
+                    <h3>Ready to Start?</h3>
+                    <p>I'm currently available for new projects and collaborations.</p>
+                    <div class="contact-links">
+                        <a href="#" class="contact-link">
+                            <i class="fab fa-discord"></i>
+                            <span>Discord</span>
+                        </a>
+                        <a href="#" class="contact-link">
+                            <i class="fab fa-roblox"></i>
+                            <span>Roblox Profile</span>
+                        </a>
+                        <a href="#" class="contact-link">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Roblox Developer Portfolio. Built with ❤️ for the Roblox community.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
