@@ -154,6 +154,13 @@ body {
     background-size: 100%;
     background-repeat: repeat;
     color: #ffd700; /* Fallback for browsers that don't support gradient text */
+    font-weight: 700;
+    text-shadow: none;
+}
+
+.portfolio-text {
+    color: white;
+    font-weight: 700;
 }
 
 .hero-subtitle {
